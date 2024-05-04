@@ -1,7 +1,19 @@
 <script setup lang="ts">
+
 defineProps<{
   msg: string
-}>()
+}>();
+// const pageTitle = ref('Hello World!');
+
+// // 當組件掛載時設置標題
+// onMounted(() => {
+//   document.title = pageTitle.value;
+// });
+
+// // 監聽 pageTitle 的變化，並更新標題
+// watch(pageTitle, (newTitle) => {
+//   document.title = newTitle;
+// });
 </script>
 
 <template>
@@ -38,4 +50,4 @@ h3 {
     text-align: left;
   }
 }
-</style>
+</style>onMounted, , watch
