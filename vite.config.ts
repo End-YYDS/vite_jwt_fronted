@@ -8,7 +8,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
-    port: 8080 // Set your desired port number here
+    port: 8080
   },
   plugins: [
     vue(),
